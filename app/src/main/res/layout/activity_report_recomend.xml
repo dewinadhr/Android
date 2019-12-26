@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ReportRecomendActivity">
+
+    <LinearLayout
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp">
+
+        <TextView
+            android:id="@+id/report_pasien"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/judul_report"
+            android:textColor="#eb9b34"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_marginTop="30dp"
+        android:padding="15dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/nama_hasil"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/nama_hasil"
+                android:textColor="#555b32"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/resultNama"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="Raisha"
+                android:textColor="#555b32"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/jk_hasil"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/nama_hasil"
+                android:layout_marginTop="20dp"
+                android:text="@string/jk_hasil"
+                android:textColor="#555b32"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/resultJK"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/nama_hasil"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="20dp"
+                android:text="Perempuan"
+                android:textColor="#555b32"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/umur_hasil"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/jk_hasil"
+                android:layout_marginTop="20dp"
+                android:text="@string/umur_hasil"
+                android:textColor="#555b32"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/resultUmur"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/jk_hasil"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="20dp"
+                android:text="79"
+                android:textColor="#555b32"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/bb_awal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/umur_hasil"
+                android:layout_marginTop="20dp"
+                android:text="Berat badan awal :"
+                android:textColor="#555b32"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/resultBeratAwal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/umur_hasil"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="20dp"
+                android:text="65"
+                android:textColor="#555b32"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/bb_ideal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/bb_awal"
+                android:layout_marginTop="20dp"
+                android:text="Berat badan ideal :"
+                android:textColor="#555b32"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/resultBbadan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/bb_awal"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="20dp"
+                android:text="55"
+                android:textColor="#555b32"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/total_kal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/bb_ideal"
+                android:layout_marginTop="20dp"
+                android:text="Kebutuhan kalori :"
+                android:textColor="#555b32"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/resultKalori"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/bb_ideal"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="20dp"
+                android:text="1500"
+                android:textColor="#555b32"
+                android:textSize="20sp" />
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/total_kal">
+
+
+                <LinearLayout
+                    android:id="@+id/Rekomendasi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/total_kal"
+                    android:layout_marginTop="20dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/rekomendasi_menu"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Rekomendasi Menu Makanan"
+                        android:textColor="#eb9b34"
+                        android:textSize="30sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/rekomen1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:gravity="center"
+                        android:text="Data Kosong"
+                        android:textColor="#555b32"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+            </ScrollView>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="354dp"
+        android:layout_marginLeft="354dp"
+        android:layout_marginBottom="18dp"
+        android:background="#eb9b34"
+        android:onClick="backMenu"
+        app:srcCompat="@android:drawable/ic_menu_revert" />
+
+</RelativeLayout>

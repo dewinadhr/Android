@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:onClick="card_article">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/artikel1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:src="@drawable/img_badminton" />
+
+
+        <TextView
+            android:id="@+id/title_artikel"
+            style="@style/SportsTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/artikel1"
+            android:padding="8dp"
+            android:text="@string/title_placeholder"
+            android:textStyle="bold"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark" />
+
+        <TextView
+            android:id="@+id/newsTitle"
+            style="@style/SportsDetailText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/artikel1"
+            android:maxLength="25"
+            android:padding="8dp"
+            android:text="@string/news_placeholder"
+            android:textColor="?android:textColorSecondary" />
+
+
+        <ImageView
+            android:id="@+id/icon_edit_artikel"
+            android:layout_width="43dp"
+            android:layout_height="39dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="46dp"
+            android:layout_marginRight="46dp"
+            android:onClick="editArtikel"
+            app:srcCompat="@drawable/ic_edit_artikel_foreground"
+            tools:ignore="VectorDrawableCompat" />
+
+        <ImageView
+            android:id="@+id/icon_delete_artikel"
+            android:layout_width="42dp"
+            android:layout_height="39dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp"
+            app:srcCompat="@drawable/ic_delete_artikel_foreground"
+            tools:ignore="VectorDrawableCompat" />
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

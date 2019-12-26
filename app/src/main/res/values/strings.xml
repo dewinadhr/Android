@@ -1,0 +1,118 @@
+<resources>
+    <string name="app_name">Si Mbah</string>
+    <string name="judul_data1">SIGN UP</string>
+    <string name="status">Status</string>
+    <string name="data">Data</string>
+    <string name="nav_header_desc">nav_header_desc</string>
+    <string name="navigation_drawer_open">Drawer Open</string>
+    <string name="navigation_drawer_close">Drawer Close</string>
+    <string name="title_placeholder">tittle</string>
+    <string name="news_placeholder">news</string>
+
+    <string name="write_artikel">WRITE NEW ARTICLE</string>
+    <string name="judul_artikel">Judul Artikel</string>
+    <string name="isi_artikel">Isian Artikel</string>
+    <string name="submit_artikel">SUBMIT ARTIKEL</string>
+
+    <string name="tag_homepage">MAIN MENU</string>
+    <string name="tag_artikel">ARTIKEL</string>
+    <string name="tag_contact">CONTACT</string>
+    <string name="tag_pasien">DATA</string>
+    <string name="tag_result">DATA RESULT</string>
+    <string name="tag_account">MY ACCOUNT</string>
+    <string name="tag_setting">tag_setting</string>
+    <string name="tag_settings">SETTINGS</string>
+    <string name="tag_report">DATA PASIEN</string>
+
+    <string name="about_title">ABOUT</string>
+    <string name="title_activity_about_si_mbah">ABOUT SI MBAH</string>
+
+    <string name="large_text">
+
+        "Si Mbah Sehat merupakan Sistem Pendukung Keputusan \n"
+        berbasis android yang dapat membantu masyarakat umum secara menyeluruh,
+        terutama dalam merekomendasikan makanan untuk lansia. Fitur yang ada di
+        dalamnya ada tambah data, artikel, report, dan about.
+        Aplikasi kami digunakan untuk perawat atau orang yang bisa
+        menghandle aplikasi tersebut serta memantau gizi bagi lansia.
+        Aplikasi kami juga membantu para ahli gizi untuk merekomendasi
+        menu makanan apa saja yang dibutuhkan bagi pasiennya. Yang dibutuhkan
+        untuk mendukung rekomendasi menu makanan ini adalah nama, usia, jenis kelamin,
+        tinggi badan dan berat badan. Asupan gizi seimbang sangat penting dalam menunjang
+        kesehatan seseorang, jadi harus diperhatikan menu makanannya. Untuk memperoleh gizi
+        seimbang, kami sangat merekomendasikan aplikasi kami kepada Anda semua."
+
+        "by Marmelade Team. \n"</string>
+    <string name="action_settings">Settings</string>
+
+    <!--    isi report-->
+    <string name="judul_isi_report">DATA PASIEN</string>
+    <string name="nama_pasien">Nama Pasien: </string>
+    <string name="jenis_kelamin">Jenis Kelamin: </string>
+    <string name="jenis_kelamin_l">Laki-Laki</string>
+    <string name="jenis_kelamin_p">Perempuan</string>
+    <string name="umur_pasien">Umur: </string>
+    <string name="berat_pasien">Berat Badan: </string>
+    <string name="tinggi_pasien">Tinggi Badan: </string>
+    <string name="judul_penyakit_pasien">Penyakit Yang Diderita: </string>
+
+    <!--    jenis kelamin-->
+    <string name="jk_l">Laki-Laki</string>
+    <string name="jk_p">Perempuan</string>
+    <string name="submit_data_pasien">SUBMIT</string>
+
+    <!--    hasil report-->
+    <string name="judul_report">RESULT</string>
+    <string name="nama_hasil">Nama: </string>
+    <string name="jk_hasil">Jenis Kelamin: </string>
+    <string name="umur_hasil">Umur: </string>
+    <string name="bb_hasil">Berat Badan: </string>
+    <string name="tb_hasil">Tinggi Badan: </string>
+    <string name="penyakit_hasil">Penyakit yang Diderita: </string>
+    <string name="rekomendasi_makanan">REKOMENDASI MAKANAN</string>
+
+
+    <!--    edit artikel-->
+    <string name="edit_artikel">EDIT YOUR ARTICLE</string>
+    <string name="edit_judul_artikel">JUDUL ARTIKEL</string>
+    <string name="edit_judulan_artikel">Ubah Judul Artikel</string>
+    <string name="edit_isi_artikel">ISI ARTIKEL</string>
+    <string name="edit_isian_artikel">Ubah Isi Artikel</string>
+    <string name="update_artikel">UPDATE</string>
+
+    <!--    Konten Artikel-->
+    <string name="title_activity_isi_artikel">isi_artikel</string>
+    <string name="konten_artikel">konten_artikel</string>
+    <string name="menu_yangDiinginkan">Menu Yang Diinginkan</string>
+    <string name="penjudulan_artikel">Judul Artikel</string>
+    <string name="waktu_makan">Waktu Makan</string>
+
+
+    <!--INI BUAT SPINNER NDUL-->
+    <string-array name="drop_menu">
+        <item>Ayam</item>
+        <item>Telur</item>
+        <item>Ikan</item>
+    </string-array>
+
+    <!--INI BUAT SPINNER NDUL-->
+    <string-array name="drop_pasien">
+        <item>Hipertensi</item>
+        <item>Jantung</item>
+        <item>Asam Urat</item>
+        <item>Obesitas</item>
+        <item>Radang Sendi</item>
+        <item>Sesak Napas</item>
+        <item>Diabetes Melitus</item>
+        <item>Darah Tinggi</item>
+    </string-array>
+
+    <!--INI BUAT SPINNER NDUL-->
+    <string-array name="drop_waktu">
+        <item>Pagi</item>
+        <item>Siang</item>
+        <item>Malam</item>
+    </string-array>
+
+
+</resources>

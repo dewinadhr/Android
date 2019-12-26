@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="108dp">
+
+        <ImageView
+            android:id="@+id/anggota1"
+            android:layout_width="141dp"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/cowo" />
+
+        <TextView
+            android:id="@+id/team1"
+            android:layout_width="196dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="22dp"
+            android:layout_toRightOf="@id/anggota1"
+            android:text="dr.Raisha Amini Dinda S."
+            android:paddingLeft="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/email1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="30dp"
+            android:layout_toEndOf="@+id/anggota1"
+            android:paddingLeft="20dp"
+            android:text="17523148@students.uii.ac.id"
+            android:layout_toRightOf="@+id/anggota1" />
+
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
